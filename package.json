@@ -17,7 +17,7 @@
     "test": "modular test",
     "lint": "eslint . --ext .js,.ts,.tsx",
     "prettier": "prettier --write .",
-    "generate": "node generate.js"
+    "generate": "node generate-modular-packages.js"
   },
   "eslintConfig": {
     "extends": "modular-app"
